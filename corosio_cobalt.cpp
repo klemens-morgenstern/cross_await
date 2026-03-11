@@ -4,7 +4,6 @@
 #include <coroutine>
 #include <exception>
 #include <iostream>
-#include <libs/asio/include/boost/asio/this_coro.hpp>
 #include <memory_resource>
 #include <stop_token>
 
