@@ -1,0 +1,3 @@
+[submodule "third-party/tmc"]
+	path = third-party/tmc
+	url = https://github.com/tzcnt/TooManyCooks.git

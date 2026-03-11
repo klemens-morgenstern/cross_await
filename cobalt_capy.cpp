@@ -54,7 +54,7 @@ struct capy_task_adaptor
   template<typename Promise>
   auto await_suspend(std::coroutine_handle<Promise> h) 
   {
-    cobalt::detail::task_promise<int> & p = h.promise();
+    auto & p = h.promise();
     env.executor = p.get_executor();
 
     env.stop_token = src.get_token();
